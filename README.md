@@ -23,5 +23,6 @@ To split the llm for smaller quants.
 3. Git clone https://github.com/turboderp-org/exllamav3
 4. CD to exllamav3
 5. Run pip install -r requirements.txt
-6. CD back up a level and run command "python exllamav3/convert.py -i split/llm -o split/vibex -w tmp -b 8"
+6. Copy the tokenizers from Qwen/Qwen2.5-7B-Instruct
+7. CD back up a level and run command "python exllamav3/convert.py -i split/llm -o split/vibex -w tmp -b 8"
 Adjust -b to quant level.
